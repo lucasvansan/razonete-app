@@ -125,6 +125,7 @@ celerybeat.pid
 env/
 venv/
 ENV/
+env_razonete/
 env.bak/
 venv.bak/
 
