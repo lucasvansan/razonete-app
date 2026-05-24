@@ -3,39 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Tabela com Borda Central Pintada</title>
-    <style>
-        table {
-            width: 30%;
-            border-collapse: collapse;
-        }
-        caption {
-            caption-side: top;
-            margin: 0px 0;
-            font-weight: bold;
-        }
+    <link rel="stylesheet" type="text/css" href="static/css/minimal-table.css">
 
-        th, td {
-            padding: 10px;
-            text-align: center;
-        }
-        th:nth-child(2),th:nth-child(3) {
-            border-top: 2px solid rgb(0, 0, 0);
-        }
-
-        /* Estilo para as células da primeira coluna */
-        
-        td:first-child, th:first-child{
-            text-align: right;
-        }
-
-        td:last-child, th:last-child{
-            text-align: left;
-        }
-
-        td:nth-child(3), th:nth-child(3){
-            border-left: 2px solid rgb(0, 0, 0); /* Borda central pintada de azul */
-        }
-    </style>
 </head>
 <body>
     <h2>Tabela com várias bordas pintadas</h2>  
@@ -60,7 +29,7 @@
                 <td>2a</td>
                 <td>2.000</td>
                 <td>2.000</td>
-                <td>2a</td>
+                <td><input id="primeiroInput"></td>
             </tr>
         </tbody>
     </table>
